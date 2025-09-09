@@ -4,9 +4,262 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roshan's official website</title>
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Joti+One&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">Hello</div>
+    <input type="checkbox" id="darkMode" />
+    <div class="wrapper">
+      <label for="darkMode"
+        ><i class="fa-solid fa-circle-half-stroke"></i>
+      </label>
+      <!-- header -->
+      <header>
+        <div class="header container flex">
+          <div class="logo">
+            <div>Roshan</div>
+            <div class="line">Software Developer</div>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- hero section -->
+      <section class="hero-section container" id="hero">
+        <div class="grid hero">
+          <div class="left flex">
+            <div>Hi! I am <span>Roshan Magar.</span></div>
+            <div class="tag">Soft. Developer</div>
+            <p>I love coding.</p>
+            <div>
+              <a href="/assets/RoshanPunmmagar.docx"></a>>
+                <button>
+                  Download CV <i class="fa-solid fa-download"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="right flex">
+            <img src="/assets/roshan.jpeg" alt="Roshan's Profile" />
+          </div>
+        </div>
+      </section>
+
+      <!-- banner section  -->
+      <section class="flex banner container" >
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          
+            <div>
+              <span>IT</span>
+              <p>Graduation</p>
+            </div>
+            <div class="info-divider"></div>
+        
+        </div>
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+         
+            <div>
+              <span>4 Projects completed</span>
+              <p>Completed</p>
+            </div>
+            <div class="info-divider"></div>
+          
+        </div>
+
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          
+            <div>
+              <span>1 year Experience</span>
+              <p>Experience</p>
+            </div>
+            <div class="info-divider"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills section -->
+       <div class="skills" id="skills">
+        <h2 class="title">
+          <span>Skills</span>
+
+        </h2>
+        <div class="container flex skills-container">
+          <div>
+          <i class="fa-brands fa-html5" style="color:blueviolet"></i>
+          <span>HTML</span>
+          </div>
+          <div>
+          <i class="fa-brands fa-css" style="color:blue"></i>
+          <span>CSS</span>
+          </div>
+          <div>
+          <i class="fa-brands fa-js" style="color:rgb(101, 10, 25)"></i>
+          <span>Javascript</span>
+          </div>
+          <div>
+         <i class="fa-brands fa-github" style="color:rgb(61, 226, 43)"></i>
+         <span>GitHub</span>
+          </div>
+          <div>
+          <i class="fa-brands fa-java" style="color:black"></i>
+          <span>Java</span>
+          </div>
+        </div>
+       </div>
+
+       <!-- project section -->
+       <section class="project" id="projects">
+<!-- project heading -->
+ <div class="heading">My Projects</div>
+ <!-- project container -->
+  <div class="project-container">
+<div class="project-item">
+    <!-- project image -->
+     <div class="project-image">
+    <img src="/assets/roshan.jpeg" alt="Roshan's picture">
+  </div>
+  
+  <div class="project-desc">
+    <div>Links</div>
+    <div>Title</div>
+    <div>Description</div>
+  </div>
+  </div>
+
+  <div class="project-item">
+    <!-- project image -->
+     <div class="project-image">
+    <img src="/assets/roshan.jpeg" alt="Roshan's picture">
+  </div>
+  
+  <div class="project-desc">
+    <div>Links</div>
+    <div>Title</div>
+    <div>Description</div>
+  </div>
+  </div>
+
+  <div class="project-item">
+    <!-- project image -->
+     <div class="project-image">
+    <img src="/assets/roshan.jpeg" alt="Roshan's picture">
+  </div>
+  
+  <div class="project-desc">
+    <div>Links</div>
+    <div>Title</div>
+    <div>Description</div>
+  </div>
+  </div>
+  <div class="project-item">
+    <!-- project image -->
+     <div class="project-image">
+    <img src="/assets/roshan.jpeg" alt="Roshan's picture">
+  </div>
+  <div class="project-desc">
+    <div>Links</div>
+    <div>Title</div>
+    <div>Description</div>
+  </div>
+  </div>
+
+</div>
+       </section>
+
+       <!-- About me section -->
+        <section class="about" id="about">
+          <h2 class="title">
+            <span>About me</span>
+          </h2>
+          <div class="container flex about-content ">
+            <div class="flex-center myImg">
+              <img src="/assets/roshan.jpeg" alt="Roshan's picture" width="100%">
+            </div>
+            <div class="my-bio container">
+              <h2>Roshan Magar</h2>
+              <p>Hi! I am Roshan. I am passionate about building web applications using HTML, CSS and Javascript. I love to be engaged in solving real world problems using modern technologies.</p>
+            <p style="font-size: 1.2rem; font-weight: bold;">Sydney, Australia</p>
+            <div>
+              <div style="font-size: 1.2rem; font-weight: bold;" class="tag">Interests</div>
+              <div class="flex">
+                <span>Coding</span>
+                <span>Playing Basketball</span>
+                <span>Watching Movies</span>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <!-- contact section -->
+         <section class="contact container" id="contact">
+          <h2 class="title">
+            <span>Contact</span>
+          </h2>
+
+          <div class="flex social">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+      
+          </div>
+
+         </section>
+
+
+       <footer class="flex">
+        <div class="top flex">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+        </div>
+        
+        <div class="bottom">
+          &copy; Copy right all reserved 2025 || Made by Roshan.
+        </div>
+
+        
+
+
+       </footer>
+
+    </div>
   </body>
 </html>
