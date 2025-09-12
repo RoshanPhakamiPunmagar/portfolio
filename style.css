@@ -269,6 +269,9 @@ header {
   flex-direction: column;
   gap: 10px;
   text-align: center;
+  a i {
+    margin-right: 7px;
+  }
 }
 
 .about-content > .myImg img {
@@ -349,7 +352,7 @@ footer .bottom {
 
 @media screen and (max-width: 992px) {
   /* Hero Section */
-  .grid .hero {
+  .grid.hero {
     grid-template-columns: 1fr;
     text-align: center;
   }
